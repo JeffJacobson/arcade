@@ -1,0 +1,25 @@
+{
+  "name": "arcade",
+  "displayName": "Arcade",
+  "description": "ArcGIS Arcade",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "arcade",
+      "aliases": ["ArcGIS Arcade", "arcade"],
+      "extensions": [".arcade"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "arcade",
+      "scopeName": "source.arcade",
+      "path": "./syntaxes/arcade.tmLanguage.json"
+    }]
+  }
+}
